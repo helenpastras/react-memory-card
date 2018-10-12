@@ -1,22 +1,24 @@
 .card {
     border: 4px rgb(99, 99, 99) solid;
     border-radius: 2px;
-    width: 400px;
-    height: 400px;
-    margin: 2rem;
+    width: 300px;
+    height: 300px;
+    margin: 10px, 10px, 10px, 10px;
     position: relative;
     box-shadow: 4px 4px 10px rgb(56, 56, 56);
     transition: all .2s ease-in-out;
   }
   
   .card > .img-container {
-    height: 400px;
+    height: 300px;
+    width: 300px;
     overflow: hidden;
     background:rgb(255, 255, 255);
   }
   
   .card > .img-container > img {
-    height: 400px;
+    height: 300px;
+    width: 300px;
   }
   
   .card:hover {
